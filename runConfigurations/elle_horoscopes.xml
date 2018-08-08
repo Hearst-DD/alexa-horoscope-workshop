@@ -1,21 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="elle-horoscopes" type="mocha-javascript-test-runner" factoryName="Mocha">
-    <node-interpreter>$USER_HOME$/.nvm/versions/node/v6.10.2/bin/node</node-interpreter>
-    <node-options />
-    <working-directory>$PROJECT_DIR$/lambda/custom</working-directory>
-    <pass-parent-env>false</pass-parent-env>
+  <configuration default="false" name="elle-horoscopes" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" application-parameters="lambda index.js --verbose" path-to-node="$USER_HOME$/.nvm/versions/node/v6.10.2/bin/node" path-to-js-file="node_modules/bespoken-tools/bin/bst-proxy.js" working-dir="$PROJECT_DIR$/lambda/custom">
     <envs>
-      <env name="DYNAMODB_TABLE" value="alexa-elle-horoscopes-dev" />
-      <env name="ENVIRONMENT" value="dev-test" />
-      <env name="ANALYTICS_TOKEN" value="3288abb0-0389-11a7-2fd2-02f814b60257" />
-      <env name="API_KEY" value="AQICAHgNbxnKYUIfqmDWIvMSmsy2rrh10DcaiektszhgLs/64QHK1AH+fxfj4vf5WreobWKLAAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMGIQ4Muo3shVhs0WJAgEQgDN6RcOKwGolT/PblAfBVGqTAKbSivmjMC6dD6pfX6Mt7X8rfKbcZs9m3P/ywczrt77+g8U=" />
       <env name="AWS_REGION" value="us-east-1" />
     </envs>
-    <ui>bdd</ui>
-    <extra-mocha-options />
-    <test-kind>DIRECTORY</test-kind>
-    <test-directory>$PROJECT_DIR$/lambda/custom/test</test-directory>
-    <recursive>true</recursive>
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+      <browser with-js-debugger="true" />
+    </EXTENSION>
     <method />
   </configuration>
 </component>

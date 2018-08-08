@@ -19,21 +19,10 @@
  */
 
 const constants = {
-    APP_ID: process.env.APP_ID,
+    APP_ID: "amzn1.ask.skill.33fda62f-f6f1-4cb3-b17e-154ce7daa2a8",
 
-    API_KEY: null,
-    API_HOST: "elle.hearst.io",
-    API_PATH: "/api/v1/articles",
-    VOICE_CLIENT: "Amazon",
-
-    ANALYTICS_TOKEN: process.env.ANALYTICS_TOKEN,
-
-    DYNAMODB_TABLE: process.env.DYNAMODB_TABLE,
-
-    ENVIRONMENT: process.env.ENVIRONMENT,
-
-    S3_BUCKET: process.env.S3_BUCKET,
-
+    DYNAMODB_TABLE: "alexa-horoscopes-workshop",
+    
     // Error codes
     errorCode: {
         UNKNOWN: "unknown",
