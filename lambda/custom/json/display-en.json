@@ -1,0 +1,59 @@
+{
+    "display": {
+        "signs": {
+            "Taurus": {
+                "bgImg": "display/1024x600/taurus.png"
+            },
+            "Aries": {
+                "bgImg": "display/1024x600/aries.png"
+            },
+            "Gemini": {
+                "bgImg": "display/1024x600/gemini.png"
+            },
+            "Cancer": {
+                "bgImg": "display/1024x600/cancer.png"
+            },
+            "Leo": {
+                "bgImg": "display/1024x600/leo.png"
+            },
+            "Virgo": {
+                "bgImg": "display/1024x600/virgo.png"
+            },
+            "Libra": {
+                "bgImg": "display/1024x600/libra.png"
+            },
+            "Scorpio": {
+                "bgImg": "display/1024x600/scorpio.png"
+            },
+            "Sagittarius": {
+                "bgImg": "display/1024x600/sagittarius.png"
+            },
+            "Capricorn": {
+                "bgImg": "display/1024x600/capricorn.png"
+            },
+            "Aquarius": {
+                "bgImg": "display/1024x600/aquarius.png"
+            },
+            "Pisces": {
+                "bgImg": "display/1024x600/pisces.png"
+            }
+        },
+        "horoscope": {
+            "backButton": "HIDDEN",
+            "backgroundImage": {
+                "url": "{horoscopeImg}",
+                "width": 1024,
+                "height": 600
+            },
+            "template": "BodyTemplate1",
+            "text": {
+                "primary": {
+                    "type": "RichText",
+                    "text": "<font size=\"4\">{horoscopeTxt}</font>"
+                }
+            },
+            "title": "ELLE Horoscopes by The Astro Twins - {horoscopeSign}",
+            "token": "horoscope{horoscopeSign}"
+        }
+    }
+}

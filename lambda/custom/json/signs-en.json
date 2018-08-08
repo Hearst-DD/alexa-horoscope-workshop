@@ -1,0 +1,17 @@
+{
+    "supported": [
+        "Taurus",
+        "Aries",
+        "Gemini",
+        "Cancer",
+        "Leo",
+        "Virgo",
+        "Libra",
+        "Scorpio",
+        "Sagittarius",
+        "Capricorn",
+        "Aquarius",
+        "Pisces"
+    ],
+    "unsupported": []
+}

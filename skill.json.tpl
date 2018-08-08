@@ -1,0 +1,134 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "The Astro Twins forecast every sign's horoscope for today. Find out if the moon's position presents any new opportunities!",
+          "examplePhrases": [
+            "Alexa, ask Horoscope what is the horoscope for Gemini.",
+            "Alexa, ask Horoscope for Gemini.",
+            "Alexa, ask Horoscope what do the stars say?"
+          ],
+          "keywords": [
+            "horoscopes",
+            "sign",
+            "signs",
+            "astrological",
+            "Aries",
+            "Taurus",
+            "Gemini",
+            "Leo",
+            "Cancer",
+            "Virgo",
+            "Libra",
+            "Scorpio",
+            "Sagittarius",
+            "Capricorn",
+            "Aquarius",
+            "Pisces"
+          ],
+          "name": "{skillName}",
+          "smallIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-108x108c.png",
+          "description": "Get your daily horoscopes from ELLE + The Astro Twins. Dubbed \"astrologists for the stars,\" identical twin sisters known as The AstroTwins—are professional astrologers whose sisterly style and spot-on predictions have made them popular gurus for astrological devotees of all stripes. Tali and Ophira have done personal readings for dozens of celebrities, including Beyonce, Stevie Wonder, Sting, Leann Rimes, and Avril Lavigne.",
+          "largeIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-512x512c.png"
+        },
+        "en-IN": {
+          "summary": "The Astro Twins forecast every sign's horoscope for today. Find out if the moon's position presents any new opportunities!",
+          "examplePhrases": [
+            "Alexa, ask Horoscope what is the horoscope for Gemini.",
+            "Alexa, ask Horoscope for Gemini.",
+            "Alexa, ask Horoscope what do the stars say?"
+          ],
+          "keywords": [
+            "horoscopes",
+            "sign",
+            "signs",
+            "astrological",
+            "Aries",
+            "Taurus",
+            "Gemini",
+            "Leo",
+            "Cancer",
+            "Virgo",
+            "Libra",
+            "Scorpio",
+            "Sagittarius",
+            "Capricorn",
+            "Aquarius",
+            "Pisces"
+          ],
+          "name": "{skillName}",
+          "smallIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-108x108c.png",
+          "description": "Get your daily horoscopes from ELLE + The Astro Twins. Dubbed \"astrologists for the stars,\" identical twin sisters known as The AstroTwins—are professional astrologers whose sisterly style and spot-on predictions have made them popular gurus for astrological devotees of all stripes. Tali and Ophira have done personal readings for dozens of celebrities, including Beyonce, Stevie Wonder, Sting, Leann Rimes, and Avril Lavigne.",
+          "largeIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-512x512c.png"
+        },
+        "en-GB": {
+          "summary": "The Astro Twins forecast every sign's horoscope for today. Find out if the moon's position presents any new opportunities!",
+          "examplePhrases": [
+            "Alexa, ask Horoscope what is the horoscope for Gemini.",
+            "Alexa, ask Horoscope for Gemini.",
+            "Alexa, ask Horoscope what do the stars say?"
+          ],
+          "keywords": [
+            "horoscopes",
+            "sign",
+            "signs",
+            "astrological",
+            "Aries",
+            "Taurus",
+            "Gemini",
+            "Leo",
+            "Cancer",
+            "Virgo",
+            "Libra",
+            "Scorpio",
+            "Sagittarius",
+            "Capricorn",
+            "Aquarius",
+            "Pisces"
+          ],
+          "name": "{skillName}",
+          "smallIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-108x108c.png",
+          "description": "Get your daily horoscopes from ELLE + The Astro Twins. Dubbed \"astrologists for the stars,\" identical twin sisters known as The AstroTwins—are professional astrologers whose sisterly style and spot-on predictions have made them popular gurus for astrological devotees of all stripes. Tali and Ophira have done personal readings for dozens of celebrities, including Beyonce, Stevie Wonder, Sting, Leann Rimes, and Avril Lavigne.",
+          "largeIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-512x512c.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Attention: \nThis is a US & UK managed skill. Please contact Eric Fahsl on ask-sa-us team for any questions.\n  Invocation name is already approved as “horoscope” and currently being used for US live/published version.",
+      "category": "ASTROLOGY",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {endpointObj},
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": "http://www.hearst.com/newsroom/voice-activated-services-privacy-notice"
+        },
+        "en-IN": {
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": "http://www.hearst.com/newsroom/voice-activated-services-privacy-notice"
+        },
+        "en-GB": {
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": "http://www.hearst.com/newsroom/voice-activated-services-privacy-notice"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
