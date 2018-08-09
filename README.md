@@ -1,11 +1,11 @@
 # Alexa Horoscope Workshop
 
-##Workshop Goal
+## Workshop Goal
 Complete our Horoscope sample skill by
   * Creating a HoroscopeForSign Intent which includes a sign slot
   * Add a response handler to the code which handles the new intent
 
-##Setup instructions
+## Setup instructions
 * Install Node 8.10.0
 * [Install npm](https://www.npmjs.com/get-npm) 
 * [Install nvm](http://nvm.sh) (if you need to switch between node versions)
@@ -16,7 +16,7 @@ Complete our Horoscope sample skill by
 * Navigate to `lambda/custom` and run `npm install`
 * Open `lambda/custom/lib/constants.js` and set the `APP_ID` variable to the skill ID from above
 
-##How to run the skill
+## How to run the skill
 In production, Alexa skill code typically runs on a lambda function. For development this is not very practical as you cannot easily change and debug your code on lambda. 
 
 To run code in development we use a library called [bespoken-tools](https://bespoken.io/). It allows us to run our code locally by routing Alexa requests to our local machines. 
@@ -38,7 +38,7 @@ https://sick-huxley-JuRHxZ.bespoken.link
 ```
 This URL is what the Alexa Skills kit will need to route requests to.
 
-##Setup on Alexa Developer Console
+## Setup on Alexa Developer Console
 * Navigate back to you new Skill on the developer console
 * Navigate to the `Endpoints` section
     * Select `HTTPS`
