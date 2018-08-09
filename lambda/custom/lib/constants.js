@@ -22,7 +22,7 @@ const constants = {
     APP_ID: "amzn1.ask.skill.33fda62f-f6f1-4cb3-b17e-154ce7daa2a8",
 
     DYNAMODB_TABLE: "alexa-horoscopes-workshop",
-    
+
     // Error codes
     errorCode: {
         UNKNOWN: "unknown",

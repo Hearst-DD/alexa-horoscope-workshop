@@ -34,6 +34,7 @@ const HoroscopeHandler = {
 
         const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
 
+        // Fetch response object from en-us.js file
         let responseObj = requestAttributes.t( stringKeys.HOROSCOPE.PROMPT );
 
         return responseBuilder.ask( handlerInput, responseObj );

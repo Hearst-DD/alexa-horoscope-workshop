@@ -3,7 +3,7 @@
 const Alexa = require( "ask-sdk-core" ),
     analytics = require( "alexa-toolkit" ).analytics,
     persistence = require( "alexa-toolkit" ).persistence,
-    c = require( "./lib/constants" ),
+    constants = require( "./lib/constants" ),
     stringsEn = require( "./strings/en-us" ),
     errorHandlers = require( "./handlers/error" ),
     requestHandlers = require( "./handlers/requests" );
@@ -23,10 +23,10 @@ exports.handler = async ( event, context, callback ) => {
     console.log( JSON.stringify( event ) );
 
     try {
-        let persistanceAdapter = persistence.dynamoAdapter( c.DYNAMODB_TABLE );
+        let persistanceAdapter = persistence.dynamoAdapter( constants.DYNAMODB_TABLE );
 
         const skill = await skillBuilder
-            .withSkillId( c.APP_ID )
+            .withSkillId( constants.APP_ID )
 
             .withPersistenceAdapter( persistanceAdapter )
 
@@ -47,7 +47,7 @@ exports.handler = async ( event, context, callback ) => {
 
         return callback( null, response  );
     } catch( error ) {
-        console.error( "INITIALIZATION ERROR ", error );
+        console.error( "Initialization Error ", error );
 
         return callback( error, null );
     }
