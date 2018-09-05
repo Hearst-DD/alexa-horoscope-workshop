@@ -5,10 +5,10 @@ Complete our Horoscope sample skill by
   * Creating a HoroscopeForSign Intent which includes a sign slot
   * Add a response handler to the code which handles the new intent
 
-## Setup instructions
+## Setup instructions (for MacOS)
 * Install Node 8.10.0
-* [Install npm](https://www.npmjs.com/get-npm) 
 * [Install nvm](http://nvm.sh) (if you need to switch between node versions)
+* [Install npm](https://www.npmjs.com/get-npm) 
 * Create [Alexa Developer Console](developer.amazon.com) account
 * Create a new skill on the Alexa Developer Console
     * Take note of the skill ID (you will need this later)
@@ -53,3 +53,5 @@ Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and
 ## Helpful links
 * https://developer.amazon.com/docs/custom-skills/understanding-custom-skills.html
 * http://docs.bespoken.io/en/latest/tutorials/tutorial_lambda_local/
+* https://www.npmjs.com/~hearst-et
+* https://github.com/Hearst-DD/alexa-tools
