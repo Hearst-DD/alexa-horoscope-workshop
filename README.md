@@ -1,6 +1,6 @@
 # Alexa Horoscope Workshop
 
-## Workshop Goal
+## Workshop Goals
 Complete our Horoscope sample skill by
   * Creating a HoroscopeForSign Intent which includes a sign slot
   * Add a response handler to the code which handles the new intent
