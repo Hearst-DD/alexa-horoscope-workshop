@@ -29,7 +29,7 @@ There are two approaches that you can use to run the project for this workshop:
     * Install bespoken-tools globally `npm install -g bespoken-tools`
     * Navigate to `lambda/custom`
     * Run this command on the command line `AWS_REGION="us-east-1"`
-    * Start bespoken tools with the following command `bst proxy lambda index.js --verbose`
+    * Start the skill using bespoken tools by running the following command `bst proxy lambda index.js --verbose`
     
 If everything is running correctly, bespoken-tools should output something like the following:
 ```
