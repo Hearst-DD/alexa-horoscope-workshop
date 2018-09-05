@@ -36,13 +36,16 @@ If everything is running correctly, bespoken-tools should output something like 
 Your public URL for accessing your local service:
 https://sick-huxley-JuRHxZ.bespoken.link
 ```
-This URL is what the Alexa Skills kit will need to route requests to.
+This URL is where the Alexa Skills kit will need to route requests to. 
 
 ## Setup on Alexa Developer Console
-* Navigate back to you new Skill on the developer console
-* Navigate to the `Endpoints` section
-    * Select `HTTPS`
-    * Input the bespoken-tools URL   
-* Add invocation term 
-* Upload model JSON file Alexa console
-* Navigate to Test tab, and use the web interface to test your skill
+* Navigate to your skill on the [Alexa Developer Console](developer.amazon.com)
+* In the build tab, do the following:
+    * Navigate to the `Endpoints` section
+        * Select `HTTPS`
+        * Input the bespoken-tools URL displayed in the last step
+    * Navigate to the `Invocation` section and add your desired invocation name 
+    * Navigate to the `JSON Editor` section and upload model JSON file Alexa console
+
+## Test your skill
+Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and use the web interface to test your skill
