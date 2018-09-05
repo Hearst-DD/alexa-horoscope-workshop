@@ -49,3 +49,7 @@ This URL is where the Alexa Skills kit will need to route requests to.
 
 ## Test your skill
 Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and use the web interface to test your skill
+
+## Helpful links
+* https://developer.amazon.com/docs/custom-skills/understanding-custom-skills.html
+* http://docs.bespoken.io/en/latest/tutorials/tutorial_lambda_local/
