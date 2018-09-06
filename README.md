@@ -2,10 +2,10 @@
 
 ## Workshop Goals
 Complete our Horoscope sample skill by
-  * Creating a HoroscopeForSign Intent which includes a sign slot
-  * Add a response handler to the code which handles the new intent
+* Creating a HoroscopeForSign Intent which includes a sign slot
+* Add a response handler to the code which handles the new intent
 
-## Setup instructions (for MacOS)
+## Setup instructions (for macOS)
 * Install Node 8.10.0
 * [Install nvm](http://nvm.sh) (if you need to switch between node versions)
 * [Install npm](https://www.npmjs.com/get-npm) 
