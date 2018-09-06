@@ -9,7 +9,7 @@ Complete our Horoscope sample skill by
 * Install Node 8.10.0
 * [Install nvm](http://nvm.sh) (if you need to switch between node versions)
 * [Install npm](https://www.npmjs.com/get-npm) 
-* Create [Alexa Developer Console](developer.amazon.com) account
+* Create [Alexa Developer Console](https://developer.amazon.com) account
 * Create a new skill on the Alexa Developer Console
     * Take note of the skill ID (you will need this later)
 * Download the sample project from Git
