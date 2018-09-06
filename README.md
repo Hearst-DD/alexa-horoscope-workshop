@@ -51,7 +51,8 @@ This URL is where the Alexa Skills kit will need to route requests to.
 Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and use the web interface to test your skill
 
 ## Helpful links
-* https://developer.amazon.com/docs/custom-skills/understanding-custom-skills.html
-* http://docs.bespoken.io/en/latest/tutorials/tutorial_lambda_local/
+* [Custom skill documentation](https://developer.amazon.com/docs/custom-skills/understanding-custom-skills.html)
+* [Slot type documentation](https://developer.amazon.com/docs/custom-skills/slot-type-reference.html)
+* [Bespoken tools tutorial](http://docs.bespoken.io/en/latest/tutorials/tutorial_lambda_local/)
+* [alexa-tools library developed by Hearst ET](https://github.com/Hearst-DD/alexa-tools)
 * https://www.npmjs.com/~hearst-et
-* https://github.com/Hearst-DD/alexa-tools
