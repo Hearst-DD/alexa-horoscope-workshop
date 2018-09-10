@@ -53,7 +53,8 @@ Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and
 ## Workshop 
 ### Add HoroscopeForSign Intent with a Sign slot in your models
 1. Define the `HoroscopeForSign` intent in `models/en-US.json`
-2. Upload the modified models file to the Alexa Developer console
+2. Add your invocation name at the top of the models file under `invocationName`
+3. Upload the modified models file to the Alexa Developer console
 ### Add HoroscopeForSign Response Handler
 1. Define the ResponseHandler in `lambda/custom/handlers/responses.js`. Use `horoscopeService.fetchBySign()` to fetch the horoscope content for the inputed sign.
 2. Add any required strings in `lambda/custom/strings/en-us.js`
