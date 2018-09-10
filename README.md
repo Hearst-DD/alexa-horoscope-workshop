@@ -6,8 +6,8 @@ Complete our Horoscope sample skill by
 * Add a response handler to the code which handles the new intent
 
 ## Setup instructions (for macOS)
-* Install Node 8.10.0
 * [Install nvm](http://nvm.sh) (if you need to switch between node versions)
+* Install Node 8.10.0
 * [Install npm](https://www.npmjs.com/get-npm) 
 * Create [Alexa Developer Console](https://developer.amazon.com) account
 * Create a new skill on the Alexa Developer Console
@@ -52,7 +52,7 @@ Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and
 
 ## Workshop 
 ### Add HoroscopeForSign Intent with a Sign slot in your models
-1. Define a `Sign` slot in `models/en-US.json`
+1. Define a `Sign` custom slot in `models/en-US.json`
 2. Define `HoroscopeForSign` intent in `models/en-US.json` that utilizes the `Sign` slot 
 3. Add your invocation name at the top of the models file under `invocationName`
 4. Upload the modified models file to the Alexa Developer console
