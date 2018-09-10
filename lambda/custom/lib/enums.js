@@ -24,8 +24,7 @@ const enums = {
             YES: "AMAZON.YesIntent"
         },
         HOROSCOPE: "HoroscopeIntent",
-        HOROSCOPE_FOR_SIGN: "HoroscopeForSignIntent",
-        SIGN: "SignOnlyIntent"
+        HOROSCOPE_FOR_SIGN: "HoroscopeForSignIntent"
     },
 
     // Slots

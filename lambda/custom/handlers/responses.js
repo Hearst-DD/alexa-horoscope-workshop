@@ -47,7 +47,7 @@ const HoroscopeForSignHandler = {
         const request = handlerInput.requestEnvelope.request;
 
         return request.type === e.REQUEST_TYPE.INTENT &&
-            ( request.intent.name === e.INTENT.HOROSCOPE_FOR_SIGN || request.intent.name === e.INTENT.SIGN );
+            request.intent.name === e.INTENT.HOROSCOPE_FOR_SIGN;
     },
     async handle( handlerInput ) {
         console.log( "[HoroscopeForSignHandler]" );
