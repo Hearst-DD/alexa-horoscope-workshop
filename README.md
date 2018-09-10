@@ -50,6 +50,18 @@ This URL is where the Alexa Skills kit will need to route requests to.
 ## Test your skill
 Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and use the web interface to test your skill
 
+## Workshop 
+### Add HoroscopeForSign Intent with a Sign slot in your models
+1. Define the `HoroscopeForSign` intent in `models/en-US.json`
+2. Upload the modified models file to the Alexa Developer console
+### Add HoroscopeForSign Response Handler
+1. Define the ResponseHandler in `lambda/custom/handlers/responses.js`
+2. Add any required strings in `lambda/custom/strings/en-us.js`
+3. Run your skill locally (following the instructions above) and make sure it responds correctly using the Test tab in the Alexa Developer Console
+### Add Visuals to the HoroscopeForSign Response
+1. In the strings file `lambda/custom/strings/en-us.js`, add display data to the HoroscopeForSign strings
+2. Run your skill and test that the visuals show up as desired using the Test tab in the Alexa Developer Console.
+
 ## Helpful links
 * [Custom skill documentation](https://developer.amazon.com/docs/custom-skills/understanding-custom-skills.html)
 * [Slot type documentation](https://developer.amazon.com/docs/custom-skills/slot-type-reference.html)
