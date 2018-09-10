@@ -6,7 +6,7 @@ const Alexa = require( "ask-sdk-core" ),
     constants = require( "./lib/constants" ),
     stringsEn = require( "./strings/en-us" ),
     errorHandlers = require( "./handlers/error" ),
-    requestHandlers = require( "./handlers/requests" );
+    requestHandlers = require( "./handlers/responses" );
 
 // combine language string files
 const strings = {

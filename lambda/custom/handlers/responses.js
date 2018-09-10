@@ -80,7 +80,7 @@ const HoroscopeForSignHandler = {
                     horoscopeResponse: horoscope
                 };
 
-                let responseObj = requestAttributes.t( stringKeys.HOROSCOPE.REQUEST, replaceObj );
+                let responseObj = requestAttributes.t( stringKeys.HOROSCOPE.RESPONSE, replaceObj );
 
                 responseObj.display = horoscopeUtility.buildHoroscopeDisplay( signSlot.value, horoscope );
 

@@ -1,24 +1,6 @@
 const languageStrings = {
     "translation": {
         "appTitle": "ELLE Horoscopes by The Astro Twins",
-        "amazon": {
-            "help": {
-                "speech": {
-                    "output": "With ELLE Horoscopes by The Astro Twins, you can get your horoscope for the day. For example, you can say what is the horoscope for Gemini. Now, which sign are you?",
-                    "reprompt": "Which sign do you want to hear?"
-                }
-            },
-            "fallback": {
-                "card": {
-                    "title": "ELLE Horoscopes by The Astro Twins",
-                    "output": "I didn't understand that.  Please try again."
-                },
-                "speech": {
-                    "output": "I'm not sure how to help you with that. Please try again.",
-                    "reprompt": "I'm not sure how to help you with that. Please try again."
-                }
-            }
-        },
         "welcome": {
             "card": {
                 "title": "Today's Horoscope",
@@ -44,6 +26,22 @@ const languageStrings = {
                     }
                 },
                 "token": "todayHoroscope"
+            }
+        },
+        "help": {
+            "speech": {
+                "output": "With ELLE Horoscopes by The Astro Twins, you can get your horoscope for the day. For example, you can say what is the horoscope for Gemini. Now, which sign are you?",
+                "reprompt": "Which sign do you want to hear?"
+            }
+        },
+        "fallback": {
+            "card": {
+                "title": "ELLE Horoscopes by The Astro Twins",
+                "output": "I didn't understand that.  Please try again."
+            },
+            "speech": {
+                "output": "I'm not sure how to help you with that. Please try again.",
+                "reprompt": "I'm not sure how to help you with that. Please try again."
             }
         },
         "exit": {
@@ -79,7 +77,7 @@ const languageStrings = {
             }
         },
         "horoscope": {
-            "request": {
+            "responses": {
                 "card": {
                     "title": "Horoscope for {{sign}}"
                 },

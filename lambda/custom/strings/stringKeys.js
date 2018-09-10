@@ -9,16 +9,14 @@
 
 const strings = {
     AMAZON: {
-        FALLBACK: "amazon.fallback",
-        FALLBACK_PLAYING: "amazon.fallbackPlaying",
-        HELP: "amazon.help",
-        SCORING: "amazon.helpScoring"
+        FALLBACK: "fallback",
+        HELP: "help",
     },
     EXIT: "exit",
     ERROR: "error",
     WELCOME: "welcome",
     HOROSCOPE: {
-        REQUEST: "horoscope.request",
+        RESPONSE: "horoscope.response",
         PROMPT: "horoscope.prompt",
         ERROR: "horoscope.error",
         UNKNOWN_SIGN: "horoscope.unknownSign"
