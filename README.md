@@ -55,7 +55,7 @@ Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and
 1. Define the `HoroscopeForSign` intent in `models/en-US.json`
 2. Upload the modified models file to the Alexa Developer console
 ### Add HoroscopeForSign Response Handler
-1. Define the ResponseHandler in `lambda/custom/handlers/responses.js`
+1. Define the ResponseHandler in `lambda/custom/handlers/responses.js`. Use `horoscopeService.fetchBySign()` to fetch the horoscope content for the inputed sign.
 2. Add any required strings in `lambda/custom/strings/en-us.js`
 3. Run your skill locally (following the instructions above) and make sure it responds correctly using the Test tab in the Alexa Developer Console
 ### Add Visuals to the HoroscopeForSign Response
