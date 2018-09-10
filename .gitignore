@@ -40,10 +40,7 @@ jspm_packages
 # Created by .ignore support plugin (hsz.mobi)
 /lambda/dist
 
-# ask-cli config folder
-.ask
-/models/en-US.json
-/skill.json
+# ask-cli config folders
 /config/*.yml
 !/config/dev.yml
 !/config/prod.yml

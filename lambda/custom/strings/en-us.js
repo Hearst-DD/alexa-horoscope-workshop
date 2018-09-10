@@ -77,7 +77,7 @@ const languageStrings = {
             }
         },
         "horoscope": {
-            "responses": {
+            "response": {
                 "card": {
                     "title": "Horoscope for {{sign}}"
                 },
@@ -100,7 +100,7 @@ const languageStrings = {
                             "text": "<font size=\"7\"><b>You can either give me a new sign or say 'goodbye' to exit. What would you like?.</b></font>"
                         }
                     },
-                    "token": "horoscopeFor"
+                    "token": "horoscopeResponse"
                 }
             },
             "prompt": {
