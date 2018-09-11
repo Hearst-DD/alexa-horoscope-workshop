@@ -65,11 +65,15 @@ Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com)
 1. Define a `Sign` custom slot in `models/en-US.json`
 2. Define `HoroscopeForSign` intent in `models/en-US.json` that utilizes the `Sign` slot 
 3. Add your invocation name at the top of the models file under `invocationName`
-4. Upload the modified models file to the Alexa Developer console
+4. Upload and build your modified models file to the Alexa Developer console
 ### Add HoroscopeForSign Response Handler
-1. Define the ResponseHandler in `lambda/custom/handlers/responses.js`. Use `horoscopeService.fetchBySign()` to fetch the horoscope content for the inputed sign.
-2. Add any required strings in `lambda/custom/strings/en-us.js`
-3. Run your skill locally (following the instructions above) and make sure it responds correctly using the Test tab in the Alexa Developer Console
+1. Define a `HoroscopeForSign` ResponseHandler in `lambda/custom/handlers/responses.js`. 
+    * Within your handler, use the following to access the inputted slot: `handlerInput.requestEnvelope.request.intent.slots.YOUR_SLOT_NAME`
+    * Make sure to validate the slot value, responding to the user with an error if necessary 
+    * Use `horoscopeService.fetchBySign()` to fetch the horoscope content for the inputted sign.
+    * Add any required string responses in `lambda/custom/strings/en-us.js`
+    * Remember that you can use ```const requestAttributes = handlerInput.attributesManager.getRequestAttributes(); const response = requestAttributes.t("YOUR_STRING_KEY", replaceObj)``` to fetch strings and make string replacements
+2. Run your skill (following the instructions above) and make sure it responds correctly using the Test tab in the Alexa Developer Console
 ### Add Visuals to the HoroscopeForSign Response
 1. In the Alexa Developer console, Navigate to the `Interfaces` section. Enable `Display Interface`
 2. In the strings file `lambda/custom/strings/en-us.js`, add display data to the HoroscopeForSign strings (https://github.com/Hearst-DD/ask-toolkit/blob/master/README.md#objects)
