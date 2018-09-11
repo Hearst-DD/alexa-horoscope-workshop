@@ -46,6 +46,7 @@ This URL is where the Alexa Skills kit will need to route requests to.
         * Input the bespoken-tools URL displayed in the last step
     * Navigate to the `Invocation` section and add your desired invocation name 
     * Navigate to the `JSON Editor` section and upload model JSON file Alexa console
+    * Click `Save Model` and then click `Build Model`
 
 ## Test your skill
 Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and use the web interface to test your skill

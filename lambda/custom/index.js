@@ -1,5 +1,7 @@
 'use strict';
 
+// process.env['AWS_REGION'] = 'us-east-1';
+
 const Alexa = require( "ask-sdk-core" ),
     persistence = require( "ask-toolkit" ).persistence,
     constants = require( "./lib/constants" ),
@@ -42,7 +44,7 @@ exports.handler = async ( event, context, callback ) => {
 
         const response = await skill.invoke( event, context );
 
-        return callback( null, response  );
+        return callback( null, response );
     } catch( error ) {
         console.error( "Initialization Error ", error );
 
