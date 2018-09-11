@@ -4,11 +4,11 @@
   "description": "Elle Horoscopes Workshop",
   "main": "index.js",
   "dependencies": {
-    "alexa-toolkit": "git+ssh://git@github.com/Hearst-DD/alexa-toolkit.git#feature/ask-v2",
     "ask-sdk-core": "2.0.5",
-    "ask-sdk-model": "1.3.1"
+    "ask-sdk-model": "1.3.1",
+    "ask-toolkit": "4.0.0"
   },
   "devDependencies": {
-    "bespoken-tools": "1.2.3"
+    "bespoken-tools": "1.2.10"
   }
 }

@@ -3,7 +3,7 @@
 /**
  * DEFAULT HELPERS
  */
-const responseBuilder = require( "alexa-toolkit" ).response.builder,
+const responseBuilder = require( "ask-toolkit" ).response.builder,
     str = require( "../strings/stringKeys" );
 
 const defaultHelpers = function() {

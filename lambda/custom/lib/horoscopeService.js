@@ -1,7 +1,7 @@
 "use strict"
 
 const horoscopeData = require( "../json/horoscopes-en"),
-    utils = require( "alexa-toolkit" ).utils;
+    utils = require( "ask-toolkit" ).utils;
 
 /**
  *  Private Methods

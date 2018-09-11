@@ -1,12 +1,12 @@
 'use strict';
 
 const Alexa = require( "ask-sdk-core" ),
-    analytics = require( "alexa-toolkit" ).analytics,
-    persistence = require( "alexa-toolkit" ).persistence,
+    analytics = require( "ask-toolkit" ).analytics,
+    persistence = require( "ask-toolkit" ).persistence,
     constants = require( "./lib/constants" ),
     stringsEn = require( "./strings/en-us" ),
     errorHandlers = require( "./handlers/error" ),
-    requestHandlers = require( "./handlers/responses" );
+    requestHandlers = require( "./handlers/requests" );
 
 // combine language string files
 const strings = {
@@ -15,7 +15,7 @@ const strings = {
     "en-US": stringsEn
 };
 
-const localization = require( "alexa-toolkit" ).localization( strings );
+const localization = require( "ask-toolkit" ).localization( strings );
 
 const skillBuilder = Alexa.SkillBuilders.custom();
 

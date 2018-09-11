@@ -6,7 +6,7 @@
  */
 const constants = require( "./constants" ),
     displayData = require( "../json/display-en.json" ),
-    utils = require( "alexa-toolkit" ).utils,
+    utils = require( "ask-toolkit" ).utils,
 
     //strings
     signsCollection = require( "../json/signs-en.json" );
