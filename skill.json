@@ -27,7 +27,7 @@
             "Aquarius",
             "Pisces"
           ],
-          "name": "{skillName}",
+          "name": "YOUR_SKILL_NAME",
           "smallIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-108x108c.png",
           "description": "Get your daily horoscopes from ELLE + The Astro Twins. Dubbed \"astrologists for the stars,\" identical twin sisters known as The AstroTwins—are professional astrologers whose sisterly style and spot-on predictions have made them popular gurus for astrological devotees of all stripes. Tali and Ophira have done personal readings for dozens of celebrities, including Beyonce, Stevie Wonder, Sting, Leann Rimes, and Avril Lavigne.",
           "largeIconUri": "https://s3.amazonaws.com/alexa-elle-horoscope/logos/Elle_Horoscopes-512x512c.png"
@@ -40,12 +40,11 @@
     },
     "apis": {
       "custom": {
-        "endpoint": {endpointObj},
-        "interfaces": [
-          {
-            "type": "RENDER_TEMPLATE"
-          }
-        ]
+        "endpoint": {
+          "sslCertificateType": "Wildcard",
+          "uri": "YOUR_PUBLIC_URL"
+        },
+        "interfaces": []
       }
     },
     "manifestVersion": "1.0",
@@ -53,14 +52,6 @@
       "allowsPurchases": false,
       "locales": {
         "en-US": {
-          "termsOfUseUrl": "",
-          "privacyPolicyUrl": "http://www.hearst.com/newsroom/voice-activated-services-privacy-notice"
-        },
-        "en-IN": {
-          "termsOfUseUrl": "",
-          "privacyPolicyUrl": "http://www.hearst.com/newsroom/voice-activated-services-privacy-notice"
-        },
-        "en-GB": {
           "termsOfUseUrl": "",
           "privacyPolicyUrl": "http://www.hearst.com/newsroom/voice-activated-services-privacy-notice"
         }
