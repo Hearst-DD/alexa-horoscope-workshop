@@ -7,7 +7,7 @@ Complete our Horoscope sample skill by
 
 ## Setup instructions (for macOS)
 * [Install nvm](http://nvm.sh) (if you need to switch between node versions)
-* Install Node 8.10.0
+* Install Node 8.10.0 by running `nvm install 8.10.0`
 * Create [Alexa Developer Console](https://developer.amazon.com) account
 * Create a new skill on the Alexa Developer Console
     * Input your selected skill name 
