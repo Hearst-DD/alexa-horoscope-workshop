@@ -41,60 +41,11 @@ const HoroscopeHandler = {
     }
 };
 
-// User is asking to hear the horoscope for a specific sign, fetch the horoscope and play it for thems
-const HoroscopeForSignHandler = {
-    canHandle( handlerInput ) {
-        const request = handlerInput.requestEnvelope.request;
-
-        return request.type === e.REQUEST_TYPE.INTENT &&
-            request.intent.name === e.INTENT.HOROSCOPE_FOR_SIGN;
-    },
-    async handle( handlerInput ) {
-        console.log( "[HoroscopeForSignHandler]" );
-
-        // Get inputted sign from request
-        const signSlot = handlerInput.requestEnvelope.request.intent.slots.sign;
-
-        // Check if no slot value was returned
-        if ( signSlot.value === undefined ) {
-            // present user error
-            return defaultResponses.unknownSign( handlerInput );
-        }
-
-        signSlot.value = stringUtils.toTitleCase( signSlot.value );
-
-        const signType = horoscopeUtility.isSign( signSlot.value );
-
-        if ( signType === constants.errorCode.UNSUPPORTED || signType === constants.errorCode.UNKNOWN ) {
-            // Unknown sign returned
-            return defaultResponses.unknownSign( handlerInput );
-        } else {
-            const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
-
-            try {
-                // Fetch horoscope data for sign
-                let horoscope = await horoscopeService.fetchBySign( signSlot.value );
-
-                let replaceObj = {
-                    sign: signType,
-                    horoscopeResponse: horoscope
-                };
-
-                let responseObj = requestAttributes.t( stringKeys.HOROSCOPE.RESPONSE, replaceObj );
-
-                responseObj.display = horoscopeUtility.buildHoroscopeDisplay( signSlot.value, horoscope );
-
-                return responseBuilder.ask( handlerInput, responseObj );
-            } catch ( error ){
-                console.error( error );
-
-                let responseObj = requestAttributes.t( stringKeys.HOROSCOPE.ERROR );
-
-                return responseBuilder.ask( handlerInput, responseObj );
-            }
-        }
-    }
-};
+/******
+ *
+ * Add HoroscopeForSignHandler here
+ *
+ */
 
 /***************************************
  ******** AMAZON INTENT HANDLERS *******

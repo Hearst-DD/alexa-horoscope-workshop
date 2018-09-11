@@ -20,28 +20,6 @@
           ]
         },
         {
-          "name": "HoroscopeForSignIntent",
-          "slots": [
-            {
-              "name": "sign",
-              "type": "LIST_OF_SIGNS"
-            }
-          ],
-          "samples": [
-            "what is the horoscope for {sign}",
-            "what the horoscope is for {sign}",
-            "what the horoscope for {sign} is",
-            "what's the horoscope for {sign}",
-            "give me the horoscope for {sign}",
-            "for {sign}",
-            "tell me the horoscope for {sign}",
-            "get the horoscope for {sign}",
-            "what's the sign {sign}",
-            "what the sign {sign} is",
-            "{sign}"
-          ]
-        },
-        {
           "name": "LaunchRequest",
           "samples": [
             "launch it"
@@ -105,71 +83,7 @@
         }
       ],
       "types": [
-        {
-          "name": "LIST_OF_SIGNS",
-          "values": [
-            {
-              "name": {
-                "value": "Taurus"
-              }
-            },
-            {
-              "name": {
-                "value": "Aries"
-              }
-            },
-            {
-              "name": {
-                "value": "Gemini"
-              }
-            },
-            {
-              "name": {
-                "value": "Cancer"
-              }
-            },
-            {
-              "name": {
-                "value": "Leo"
-              }
-            },
-            {
-              "name": {
-                "value": "Virgo"
-              }
-            },
-            {
-              "name": {
-                "value": "Libra"
-              }
-            },
-            {
-              "name": {
-                "value": "Scorpio"
-              }
-            },
-            {
-              "name": {
-                "value": "Sagittarius"
-              }
-            },
-            {
-              "name": {
-                "value": "Capricorn"
-              }
-            },
-            {
-              "name": {
-                "value": "Aquarius"
-              }
-            },
-            {
-              "name": {
-                "value": "Pisces"
-              }
-            }
-          ]
-        }
+
       ]
     }
   }
