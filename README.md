@@ -11,10 +11,14 @@ Complete our Horoscope sample skill by
 * [Install npm](https://www.npmjs.com/get-npm) 
 * Create [Alexa Developer Console](https://developer.amazon.com) account
 * Create a new skill on the Alexa Developer Console
+    * Input your selected skill name 
+    * Select the `Custom` skill model
+    * Select `Start From Scratch`
     * Take note of the skill ID (you will need this later)
 * Download the sample project from Git
 * Navigate to `lambda/custom` and run `npm install`
-* Open `lambda/custom/lib/constants.js` and set the `APP_ID` variable to the skill ID from above
+* Open `lambda/custom/lib/constants.js` and set the `YOUR_APP_ID` variable to the skill ID from above
+* Open `models/en-US.js` and set the `YOUR_INVOCATION_NAME` to your desired invocation name
 
 ## How to run the skill
 In production, Alexa skill code typically runs on a lambda function. For development this is not very practical as you cannot easily change and debug your code on lambda. 
@@ -44,12 +48,17 @@ This URL is where the Alexa Skills kit will need to route requests to.
     * Navigate to the `Endpoints` section
         * Select `HTTPS`
         * Input the bespoken-tools URL displayed in the last step
-    * Navigate to the `Invocation` section and add your desired invocation name 
-    * Navigate to the `JSON Editor` section and upload model JSON file Alexa console
-    * Click `Save Model` and then click `Build Model`
+        * Select `My development endpoint has a certificate from a trusted certificate authority`
+        * Select `Save Endpoints` at the top of the page    
+    * Navigate to the `JSON Editor` section 
+        * Upload `model/en-US.json`
+        * Click `Save Model` and then click `Build Model`
+        * Once the build is completed and successful, move on to the next step
 
 ## Test your skill
-Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and use the web interface to test your skill
+Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com)
+* Enable testing using the toggle on the top of the page
+* Test if you can communicate with the skill running locally. For example, enter the following into the input field: `open YOUR_INVOCATION_NAME`
 
 ## Workshop 
 ### Add HoroscopeForSign Intent with a Sign slot in your models
@@ -62,8 +71,9 @@ Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com), and
 2. Add any required strings in `lambda/custom/strings/en-us.js`
 3. Run your skill locally (following the instructions above) and make sure it responds correctly using the Test tab in the Alexa Developer Console
 ### Add Visuals to the HoroscopeForSign Response
-1. In the strings file `lambda/custom/strings/en-us.js`, add display data to the HoroscopeForSign strings (https://github.com/Hearst-DD/ask-toolkit/blob/master/README.md#objects)
-2. Run your skill and test that the visuals show up as desired using the Test tab in the Alexa Developer Console.
+1. In the Alexa Developer console, Navigate to the `Interfaces` section. Enable `Display Interface`
+2. In the strings file `lambda/custom/strings/en-us.js`, add display data to the HoroscopeForSign strings (https://github.com/Hearst-DD/ask-toolkit/blob/master/README.md#objects)
+3. Run your skill and test that the visuals show up as desired using the Test tab in the Alexa Developer Console.
 
 ## Helpful links
 * [Custom skill documentation](https://developer.amazon.com/docs/custom-skills/understanding-custom-skills.html)
