@@ -26,7 +26,7 @@ To run code in development we use a library called [bespoken-tools](https://besp
 
 There are two approaches that you can use to run the project for this workshop:
 * Using Webstorm
-    * Copy the runConfiguration folder from the sample project into .idea/runConfigurations
+    * Copy the runConfiguration folder from the sample project into .idea folder
     * Select the new configuration from the top menu bar, and click Run or Debug 
 * Using the Command line
     * Ensure you are running Node 8.10.0 by running `nvm use 8.10.0`
@@ -67,7 +67,7 @@ Navigate to Test tab on the [Alexa Developer Console](https://developer.amazon.c
 3. Add your invocation name at the top of the models file under `invocationName`
 4. Upload and build your modified models file to the Alexa Developer console
 ### Add HoroscopeForSign Response Handler
-1. Define a `HoroscopeForSign` ResponseHandler in `lambda/custom/handlers/responses.js`. 
+1. Define a `HoroscopeForSign` ResponseHandler in `lambda/custom/handlers/requests.js`. 
     * Within your handler, use the following to access the inputted slot: `handlerInput.requestEnvelope.request.intent.slots.YOUR_SLOT_NAME`
     * Make sure to validate the slot value, responding to the user with an error if necessary 
     * Use `horoscopeService.fetchBySign()` to fetch the horoscope content for the inputted sign.
