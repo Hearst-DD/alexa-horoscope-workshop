@@ -43,9 +43,18 @@ const HoroscopeHandler = {
 
 /******
  *
- * Add HoroscopeForSignHandler here
+ * Add HoroscopeForSign code below
  *
  */
+const HoroscopeForSignHandler = {
+    canHandle( handlerInput ) {
+        return false;
+    },
+    async handle( handlerInput ) {
+        console.log( "[HoroscopeForSignHandler]" );
+
+    }
+};
 
 /***************************************
  ******** AMAZON INTENT HANDLERS *******
