@@ -18,7 +18,7 @@ Complete our Horoscope sample skill by
 * Download the sample project from Git
 * Navigate to `lambda/custom` and run `npm install`
 * Open `lambda/custom/lib/constants.js` and set the `YOUR_APP_ID` variable to the skill ID from above
-* Open `models/en-US.js` and set the `YOUR_INVOCATION_NAME` to your desired invocation name
+* Open `models/en-US.js` and set the `YOUR_INVOCATION_NAME` to your desired invocation name (The default is the skill name)
 
 ## How to run the skill
 In production, Alexa skill code typically runs on a lambda function. For development this is not very practical as you cannot easily change and debug your code on lambda. 
@@ -43,7 +43,7 @@ https://sick-huxley-JuRHxZ.bespoken.link
 This URL is where the Alexa Skills kit will need to route requests to. 
 
 ## Setup on Alexa Developer Console
-* Navigate to your skill on the [Alexa Developer Console](developer.amazon.com)
+* Navigate to your skill on the [Alexa Developer Console](https://developer.amazon.com)
 * In the build tab, do the following:
     * Navigate to the `Endpoints` section
         * Select `HTTPS`
@@ -75,7 +75,7 @@ Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com)
     * Remember that you can use ```const requestAttributes = handlerInput.attributesManager.getRequestAttributes(); const response = requestAttributes.t("YOUR_STRING_KEY", replaceObj)``` to fetch strings and make string replacements
 2. Run your skill (following the instructions above) and make sure it responds correctly using the Test tab in the Alexa Developer Console
 ### Add Visuals to the HoroscopeForSign Response
-1. In the Alexa Developer console, Navigate to the `Interfaces` section. Enable `Display Interface`
+1. In the [Alexa Developer Console](https://developer.amazon.com), Navigate to the `Interfaces` section. Enable `Display Interface`
 2. In the strings file `lambda/custom/strings/en-us.js`, add display data to the HoroscopeForSign strings (https://github.com/Hearst-DD/ask-toolkit/blob/master/README.md#objects)
 3. Run your skill and test that the visuals show up as desired using the Test tab in the Alexa Developer Console.
 
