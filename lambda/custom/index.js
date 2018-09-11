@@ -1,7 +1,5 @@
 'use strict';
 
-process.env['AWS_REGION'] = 'us-east-1';
-
 const Alexa = require( "ask-sdk-core" ),
     persistence = require( "ask-toolkit" ).persistence,
     constants = require( "./lib/constants" ),

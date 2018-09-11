@@ -29,6 +29,7 @@ There are two approaches that you can use to run the project for this workshop:
     * Copy the runConfiguration folder from the sample project into .idea/runConfigurations
     * Select the new configuration from the top menu bar, and click Run or Debug 
 * Using the Command line
+    * Ensure you are running Node 8.10.0 by running `nvm use 8.10.0`
     * Install bespoken-tools globally `npm install -g bespoken-tools`
     * Navigate to `lambda/custom`
     * Run this command on the command line `AWS_REGION="us-east-1"`
