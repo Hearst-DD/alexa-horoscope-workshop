@@ -56,7 +56,7 @@ This URL is where the Alexa Skills kit will need to route requests to.
         * Once the build is completed and successful, move on to the next step
 
 ## Test your skill
-Navigate to Test tab on the [Alexa Developer Console](developer.amazon.com)
+Navigate to Test tab on the [Alexa Developer Console](https://developer.amazon.com)
 * Enable testing using the toggle on the top of the page
 * Test if you can communicate with the skill running locally. For example, enter the following into the input field: `open YOUR_INVOCATION_NAME`
 
