@@ -1,7 +1,6 @@
 'use strict';
 
 const Alexa = require( "ask-sdk-core" ),
-    analytics = require( "ask-toolkit" ).analytics,
     persistence = require( "ask-toolkit" ).persistence,
     constants = require( "./lib/constants" ),
     stringsEn = require( "./strings/en-us" ),
@@ -34,11 +33,9 @@ exports.handler = async ( event, context, callback ) => {
             .addErrorHandlers( ...errorHandlers )
 
             .addRequestInterceptors(
-                analytics.sendRequestTracking,
                 localization.requestInterceptor
             )
             .addResponseInterceptors(
-                analytics.sendResponseTracking,
                 persistence.responseInterceptor
             )
             .create();
