@@ -14,7 +14,7 @@ Complete our Horoscope sample skill by
     * Input your selected skill name 
     * Select the `Custom` skill model
     * Select `Start From Scratch`
-    * Take note of the skill ID (you will need this later)
+    * Navigate back to the `Your Skills` section, and take note of skill ID for your new skill (you will need this later)
 * Download the sample project from Git
 * Navigate to `lambda/custom` and run `npm install`
 * Open `lambda/custom/lib/constants.js` and set the `YOUR_APP_ID` variable to the skill ID from above
