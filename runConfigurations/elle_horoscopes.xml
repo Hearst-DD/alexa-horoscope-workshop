@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="elle-horoscopes" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" application-parameters="lambda index.js --verbose" path-to-node="$USER_HOME$/.nvm/versions/node/v6.10.2/bin/node" path-to-js-file="node_modules/bespoken-tools/bin/bst-proxy.js" working-dir="$PROJECT_DIR$/lambda/custom">
+  <configuration default="false" name="elle-horoscopes" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" application-parameters="lambda index.js --verbose" path-to-node="$USER_HOME$/.nvm/versions/node/v8.10.0/bin/node" path-to-js-file="node_modules/bespoken-tools/bin/bst-proxy.js" working-dir="$PROJECT_DIR$/lambda/custom">
     <envs>
       <env name="AWS_REGION" value="us-east-1" />
     </envs>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
       <browser with-js-debugger="true" />
     </EXTENSION>
-    <method />
+    <method v="2" />
   </configuration>
 </component>
