@@ -48,7 +48,7 @@ This URL is where the Alexa Skills kit will need to route requests to.
     * Navigate to the `Endpoints` section
         * Select `HTTPS`
         * Input the bespoken-tools URL displayed in the last step
-        * Select `My development endpoint has a certificate from a trusted certificate authority`
+        * Select `My development endpoint is a sub-domain of a domain that has a wildcard certificate from a trusted certificate authority`
         * Select `Save Endpoints` at the top of the page    
     * Navigate to the `JSON Editor` section 
         * Upload `model/en-US.json`
