@@ -10,6 +10,9 @@ Complete our Horoscope sample skill by
 * Install Node 8.10.0 by running `nvm install 8.10.0`
 * Create [Alexa Developer Console](https://developer.amazon.com) account
 * Create a new skill on the Alexa Developer Console
+    * Select `Developer Console` on the top menu bar
+    * Select `Alexa Skills Kit`
+    * Click `Create Skill`
     * Input your selected skill name 
     * Select the `Custom` skill model
     * Select `Start From Scratch`
