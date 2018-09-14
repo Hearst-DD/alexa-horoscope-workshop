@@ -86,5 +86,5 @@ Navigate to Test tab on the [Alexa Developer Console](https://developer.amazon.c
 * [Custom skill documentation](https://developer.amazon.com/docs/custom-skills/understanding-custom-skills.html)
 * [Slot type documentation](https://developer.amazon.com/docs/custom-skills/slot-type-reference.html)
 * [Bespoken tools tutorial](http://docs.bespoken.io/en/latest/tutorials/tutorial_lambda_local/) 
-* [alexa-tools library developed by Hearst ET](https://github.com/Hearst-DD/alexa-tools) Private repository.  Contact netteam@hearst.com for access.
+* [ask-tools library developed by Hearst ET](https://github.com/Hearst-DD/alexa-tools) Private repository.  Contact netteam@hearst.com for access.
 * https://www.npmjs.com/~hearst-et
