@@ -20,7 +20,7 @@ Complete our Horoscope sample skill by
 * Download the sample project from Git
 * Navigate to `lambda/custom` and run `npm install`
 * Open `lambda/custom/lib/constants.js` and set the `YOUR_APP_ID` variable to the skill ID from above
-* Open `models/en-US.js` and set the `YOUR_INVOCATION_NAME` to your desired invocation name (The default is the skill name)
+* Open `models/en-US.json` and set the `YOUR_INVOCATION_NAME` to your desired invocation name (The default is the skill name)
 
 ## How to run the skill
 In production, Alexa skill code typically runs on a lambda function. For development this is not very practical as you cannot easily change and debug your code on lambda. 
